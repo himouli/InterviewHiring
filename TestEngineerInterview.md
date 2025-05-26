@@ -101,6 +101,119 @@ Explain feedback timeline and any follow‑up rounds.
 This plan ensures rigorous evaluation of both technical acumen (strategy, design, methodologies) and leadership mindset (Ownership, Dive Deep, Invent & Simplify, Think Big) for a well‑rounded hiring decision.
 
 
+Below is a list of 20 top interview questions a hiring manager can use to evaluate a Software Development Engineer in Test (SDET). These span test strategy, automation design, system‐design for testability, performance & tooling, and probe leadership principles like Ownership, Dive Deep, Invent & Simplify, and Think Big.
+
+1. Test Strategy & Risk Management
+How would you design a test strategy for a complex, microservices‑based application?
+– Look for discussion of risk‑based testing, traceability matrices, and shift‑left integration 
+Careerist
+.
+
+Can you walk me through how you identify and prioritize test cases under tight deadlines?
+– Expect use of impact analysis, requirement criticality, and past defect data 
+GeeksforGeeks
+.
+
+Describe your approach to ensuring end‑to‑end quality in a CI/CD pipeline.
+– Should cover unit, integration, contract, and smoke tests, plus metrics (e.g., test pass rate, mean time to detect) 
+Indeed
+.
+
+2. Automation Frameworks & Coding
+What automation frameworks have you built or extended? Why did you choose them?
+– Probe depth on custom libraries, maintainability, abstractions, and language choices 
+LambdaTest
+.
+
+How do you structure test code in a large repository to maximize reuse and readability?
+– Look for page‑object, factory patterns, helper modules, and naming conventions 
+Careerist
+.
+
+Show me a snippet of a test you implemented that required significant logic or optimization.
+– Expect discussion of dynamic waits, polling, parameterization, or parallel execution 
+LambdaTest
+.
+
+3. System–Design for Testability
+Design an order‑processing service (API, DB, messaging). How would you build in hooks for fault injection and observability?
+– Seek API endpoints for test control, health checks, circuit‑breaker toggles, and metrics instrumentation 
+Site Title
+.
+
+How would you implement contract testing between microservices?
+– Should mention consumer‑driven contracts (Pact), schema evolution, and CI enforcement 
+InterviewBit
+.
+
+4. Deep‑Dive Technical Questions
+Compare black‑box, white‑box, and gray‑box testing. When is each appropriate?
+– Assess ability to choose techniques based on risk, access, and performance needs 
+InterviewBit
+.
+
+What is your experience with non‑functional testing: performance, security, and reliability?
+– Expect tooling (JMeter, Locust, OWASP ZAP), SLO/SLI definitions, and analysis of bottlenecks 
+Indeed
+.
+
+How do you test database migrations and schema changes without downtime?
+– Look for rolling‑upgrade patterns, feature toggles, and data validation strategies 
+GeeksforGeeks
+.
+
+5. Tooling & Technology Choices
+Which CI/CD tools have you integrated tests into, and how do you handle flaky tests?
+– Probe retry logic, quarantine patterns, and failure notification workflows 
+LambdaTest
+.
+
+Explain how you’d use Docker and Kubernetes to run parallel test suites at scale.
+– Expect pod templates, resource limits, test orchestration (e.g., Helm, Argo), and log aggregation 
+Hirist Tech
+.
+
+How have you applied data‑driven or behavior‑driven testing (BDD) in past projects?
+– Should cover Cucumber/Gherkin, mapping to requirements, and test maintenance 
+Careerist
+.
+
+6. Leadership & Ownership
+Tell me about a time you discovered a production bug—how did you take ownership from detection through resolution?
+– STAR response: Root‑cause analysis, cross‑team coordination, and process improvements 
+Reddit
+.
+
+Describe an instance where you simplified or automated a repetitive test process (“Invent & Simplify”).
+– Look for measurable outcomes in efficiency or reliability 
+TestGorilla
+.
+
+How have you driven long‑term quality improvements across teams (“Think Big”)?
+– Examples might include establishing a quality guild, metrics dashboard, or reusable test libraries 
+Site Title
+.
+
+Give an example of when you dug deep into a flaky test or intermittent failure to find the root cause.
+– Seek technical depth in logging, debugging techniques, and preventative fixes 
+Reddit
+.
+
+7. Culture & Collaboration
+How do you mentor junior engineers on testing best practices?
+– Look for pair‑programming, code reviews focused on tests, and documentation initiatives 
+GeeksforGeeks
+.
+
+What’s your process for collaborating with product and development teams to define “done”?
+– Should include defining entry/exit criteria, acceptance tests, and continuous feedback loops 
+Indeed
+.
+
+By covering these 20 questions, you’ll assess not only the candidate’s technical prowess in SDET skills but also their ownership mindset, capacity for deep‑dives, talent for inventing and simplifying, and their ability to think big about quality at scale.
+
+
+
 
 
 
